@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .outer-div{
+    width: 50%;
+    margin: 0 auto; 
+    font-size: 12px; 
+    padding-left: 550;
+}
+#fname-msg{
+    display: none;
+}
+#lname-msg{
+    display: none;
+} */
+#name_error, #email_error, #phnum_error, #pass_error{
+    color: red;
+}
+#email{
+    border: 0;
+    border-bottom: 0.1rem solid ;;
+}

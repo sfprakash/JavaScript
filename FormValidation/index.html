@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation using Js</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JavaScript/script.js" type="text/JavaScript"></script>
+</head>
+<body>
+    <div >
+        <fieldset>
+            <form name="biodata" onsubmit="return validate();" action="">
+
+                <div class="input-field">
+                    <label for="name">Name</label>
+                    <input class="input-box" type="text" name="name" id="fname" placeholder="FirstName">
+                    <input class="input-box" type="text" name="name" id="lname" placeholder="LastName">
+                    <span id="name_error"></span>
+                </div>
+
+                <div class="email">
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" spellcheck="false">
+                        <span id="email_error"></span>
+                    </div>
+                </div>
+
+                <div class="input-field">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input class="input-box" type="number" name="phoneNumber" id="phoneNumber" placeholder="10-digit number">
+                    <span id="phnum_error"></span>
+                </div>
+
+                <div class="input-field">
+                    <label for="password">Password</label>
+                    <input class="input-box" type="password" name="password" id="password">
+                    <span id="pass_error"></span>
+                </div>
+
+                <div class="input-field-1">
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Not wish to Disclose</label>
+                </div>
+                <div class="input-field-1">
+                    <label for="address">Address :</label><br>
+                    <textarea  id="address" name="address" cols="25" rows="7"></textarea>
+                </div>
+                <div class="input-field-1">
+                    <label for="dob">Date Of Birth</label><br>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div class="input-field-1">
+                    <label for="time">Time</label><br>
+                    <input type="time" name="time" id="time">
+                </div>
+                <div class="input-field-1">
+                    <label>Language</label><br>
+                    <input type="checkbox" name="language[]" id="tamil" value="tamil" >
+                    <label for="tamil">Tamil</label><br>
+                    <input type="checkbox" name="language[]" id="english" value="english" >
+                    <label for="english">English</label><br>
+                    <input type="checkbox" name="language[]" id="french" value="french" >
+                    <label for="french">French</label>
+                </div>
+                <div class="input-field-1">
+                    <label for="fieldOfInterest">Select Your field of Interest :</label><br>
+                    <select id="fieldOfInterest">
+                        <option value=""></option>
+                        <option value="music">Music</option>
+                        <option value="cycling">Cycling</option>
+                        <option value="football">Football</option>
+                        <option value="batminton">Batminton</option>
+                    </select>
+                </div>
+                <div class="input-field-1">
+                    <label for="photo">Upload your Photo</label><br>
+                    <input type="file" name="photo">
+                </div>
+                <div class="input-field-1">
+                    <input class="btn" type="submit" value="Submit">
+                    <input class="btn" type="reset" value="Reset">
+                </div>
+            </form>
+        </fieldset>  
+    </div>
+</body>
+</html>
