@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 5rem;
+    background-color: yellowgreen;
+    display: flex;
+    font-size: larger;
+}
+.image{
+    width: 15%;
+    height: 100%;
+    margin: 0 1rem 0 3rem;
+}
+#logo-img{
+    width: 50%;
+    height: 75%;
+    margin: 0.5rem;
+}
+.nav-item{
+    align-content: center;
+    padding: 0.5rem;
+    font-family: sans-serif;
+}
+.form-title{
+    margin: 1rem;
+}
+.form-field{
+    display: flex;
+    width: 50%;
+}
+.label-field{
+    padding: 1rem;
+    width: 25%;
+}
+.input-field{
+    padding: 1rem;
+    border: 0 none;
+}
+.msg-field{
+    padding: 1rem;
+    color: red;
+}
+.btn-field{
+    margin: 2rem 0;
+}
+.btn{
+    padding: 0.5rem;
+    border: 0.1rem solid black;
+    margin: 1rem 3rem;
+}
